@@ -4,19 +4,19 @@ public class MonthCalculator {
         switch (monthNumber) {
             case 12:
             case 1:
+            case 2:
                 System.out.println("Зима");
                 break;
-            case 2:
             case 3:
             case 5:
+            case 4:
                 System.out.println("Весна");
                 break;
-            case 4:
             case 6:
             case 8:
+            case 7:
                 System.out.println("Лето");
                 break;
-            case 7:
             case 9:
             case 10:
             case 11:
