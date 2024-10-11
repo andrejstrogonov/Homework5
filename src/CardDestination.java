@@ -1,6 +1,6 @@
 public class CardDestination {
     public static void main(String[] args) {
-        int deliveryDistance = 95;
+        int deliveryDistance = 15;
         if (deliveryDistance > 20 && deliveryDistance <= 60){
             System.out.println("Потребуется дней: " + 3);
         }
@@ -9,7 +9,8 @@ public class CardDestination {
         }
         if (deliveryDistance > 60 && deliveryDistance <= 100){
             System.out.println("Потребуется дней: " +4 );
-        }else{
+        }
+        if (deliveryDistance>100){
             System.out.println("Доставки нет");
         }
     }
